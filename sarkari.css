@@ -1,0 +1,186 @@
+* 
+        { 
+            padding:0px; 
+            margin:0px; 
+            font-family: Arial,Helvetica,sans-serif;
+
+        } 
+        .container 
+        { 
+            width:70%; 
+            margin: auto; 
+            padding: 0.33%;
+        } 
+        .header 
+        { 
+            height:170px; 
+            background-color:#ab183d; 
+            display: flex; 
+            font-family: Arial,Helvetica,sans-serif;
+        } 
+        .logo-img 
+        { 
+            display: flex; 
+            width: 20%; 
+            height: 100%; 
+            align-items: center; 
+            justify-content: center; 
+        } 
+        .logo-header 
+        { 
+            display: flex; 
+            font-size: 30px; 
+            align-items: center; 
+            width: 70%; 
+           justify-content: center; 
+           color:white; 
+           flex-direction: column; 
+        } 
+        .nav 
+        { 
+            display: flex; 
+            color: white; 
+            width: 100%; 
+            background-color: black; 
+        } 
+        .border 
+        { 
+            border-right: 1px white solid; 
+            width: 12.5%; 
+            text-align: center; 
+            padding: 20px; 
+            text-decoration: none;
+            color: white;
+            font: normal bold 14px/1.2em Arial,Verdana,Helvetica;
+        } 
+        .headeranchor:visited{
+            color: white;
+        }
+        .headeranchor:active{
+            color: white;
+            list-style: none;
+        }
+        .border:hover 
+        { 
+            cursor: pointer;
+        }
+        h1{
+            text-align: center;
+        }
+        font{
+            padding-top:20%;
+        }
+        .Marquee{
+            width:65%; 
+            position: relative;
+            left:17%;
+        }
+        .google-ad{
+            width: 80%;
+            border: 1px black solid;
+            height: 270px;
+            position: relative;
+            left: 10%;
+        }
+        button{
+            color: white;
+            background-color: rgb(0, 183, 255);
+            border: 0px ;
+            border-radius: 10px;
+            position: relative;
+            left: 45%;
+            width: 10%;
+        }
+        .tools{
+            width:30%;
+            position: relative;
+            left:35%;
+            height: 30px;
+            background-color: #0000a0;
+            text-align: center;
+            color: white;
+            font-size: x-large;
+        }
+        .gridi{
+            width:80%;
+            position: relative;
+            left: 17%;
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20%;
+            grid-gap: 3px 0.33%;
+        }
+        .box{
+            height: 60px;
+            color: white;
+            font-size: x-large;
+            text-align: center;
+        }
+        .tools a:visited{
+            color: white;
+        }
+        .tools a:active{
+            color: white;
+            list-style: none;
+        }
+        .another-google-ad{
+            width: 75%;
+            border: 1px black solid;
+            height: 270px;
+            position: relative;
+            left: 13%;
+        }
+        .content{
+            border: 2px solid #d2691e;
+            height:700px;
+            width: 74%;
+            position: relative;
+            left:13%;
+            text-align: center;
+        }
+        .content p{
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+        .background-color{
+            background-color: #ab183d;
+            height: 30px;
+            text-align: center;
+        }
+        .background-color h2{
+            color: white;
+        }
+        .important-links{
+            width:74%;
+            position: relative;
+            left: 12%;
+            display: grid;
+            grid-template-columns: 33.33% 33.33% 33.33% ;
+            grid-gap: 2%;
+
+        }
+        .Result{
+            border: 2px  #ab183d solid;
+        }
+        .list{
+            position: relative;left:20%;
+        }
+        .Footer{
+            position: relative;
+            left:15%;
+            display: inline;
+        }
+        .Footer table {
+            display: inline;
+        }
+        th, td {
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 40px;
+            margin: 0 0 10px;
+        }
+        tr{
+            color: rgba(0,0,0,0.75);
+        }
